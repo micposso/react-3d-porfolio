@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, StarsCanvas, Experience, Feedbacks, Hero, Loader, Nvabar, Tech, Work, Navbar } from './components';
+import './index.css';
 
 const App = () => {
 
@@ -23,4 +24,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
